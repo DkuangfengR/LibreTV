@@ -22,189 +22,189 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    "360": {
-        "api": "https://360zy.com/api.php/provide/vod",
-        "name": "360"
+    zy360: {
+        api: 'https://360zy.com/api.php/provide/vod/',
+        name: '360'
     },
-    "ok": {
-        "api": "https://okzyw9.com/api.php/provide/vod",
-        "name": "OK"
+    okzy: {
+        api: 'https://okzyw9.com/api.php/provide/vod/',
+        name: 'OK'
     },
-    "uku": {
-        "api": "https://api.ukuapi.com/api.php/provide/vod",
-        "name": "U酷"
+    uku: {
+        api: 'https://api.ukuapi.com/api.php/provide/vod/',
+        name: 'U酷'
     },
-    "ikun": {
-        "api": "https://ikunzyapi.com/api.php/provide/vod",
-        "name": "ikun"
+    ikun: {
+        api: 'https://ikunzyapi.com/api.php/provide/vod/',
+        name: 'ikun'
     },
-    "baiduzy": {
-        "api": "https://api.apibdzy.com/api.php/provide/vod",
-        "name": "百度资源"
+    baiduzy: {
+        api: 'https://api.apibdzy.com/api.php/provide/vod/',
+        name: '百度资源'
     },
-    "baopian": {
-        "api": "https://zpsps.com/api.php/provide/vod",
-        "name": "宝片"
+    baopian: {
+        api: 'https://zpsps.com/api.php/provide/vod/',
+        name: '宝片'
     },
-    "bfzy": {
-        "api": "https://bfzyapi.com/api.php/provide/vod",
-        "name": "暴风"
+    bfzy: {
+        api: 'https://bfzyapi.com/api.php/provide/vod/',
+        name: '暴风'
     },
-    "db": {
-        "api": "https://caiji.dbzy.tv/api.php/provide/vodat/josn/",
-        "name": "豆瓣"
+    dbzy: {
+        api: 'https://caiji.dbzy.tv/api.php/provide/vod/at/josn/',
+        name: '豆瓣'
     },
-    "ff": {
-        "api": "http://cj.ffzyapi.com/api.php/provide/vod",
-        "name": "非凡"
+    ffzy: {
+        api: 'http://cj.ffzyapi.com/api.php/provide/vod/',
+        name: '非凡'
     },
-    "fuju": {
-        "api": "http://www.fuju2024.cc:8013/ruifenglb_api.php/provide/vod",
-        "name": "腐剧"
+    fuju: {
+        api: 'http://www.fuju2024.cc:8013/ruifenglb_api.php/provide/vod/',
+        name: '腐剧'
     },
-    "gqzy": {
-        "api": "https://api.1080zyku.com/inc/apijson.php/",
-        "name": "高清资源"
+    gaoqing: {
+        api: 'https://api.1080zyku.com/inc/apijson.php/',
+        name: '高清资源'
     },
-    "gszy": {
-        "api": "https://api.guangsuapi.com/api.php/provide/vodfrom/gsm3u8/",
-        "name": "光速资源"
+    guangsu: {
+        api: 'https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/',
+        name: '光速资源'
     },
-    "haohua": {
-        "api": "https://hhzyapi.com/api.php/provide/vod",
-        "name": "豪华"
+    haohua: {
+        api: 'https://hhzyapi.com/api.php/provide/vod/',
+        name: '豪华'
     },
-    "heimuer": {
-        "api": "https://json.heimuer.xyz/api.php/provide/vod",
-        "name": "黑木耳"
+    heimuer: {
+        api: 'https://json.heimuer.xyz/api.php/provide/vod',
+        name: '黑木耳'
     },
-    "hongniu": {
-        "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-        "name": "红牛"
+    hongniu: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod/',
+        name: '红牛'
     },
-    "huya": {
-        "api": "https://www.huyaapi.com/api.php/provide/vod",
-        "name": "虎牙"
+    huya: {
+        api: 'https://www.huyaapi.com/api.php/provide/vod/',
+        name: '虎牙'
     },
-    "huawb": {
-        "api": "https://hw8.live/api.php/provide/vod",
-        "name": "华为吧"
+    huawb: {
+        api: 'https://hw8.live/api.php/provide/vod/',
+        name: '华为吧'
     },
-    "jisu": {
-        "api": "https://jszyapi.com/api.php/provide/vod",
-        "name": "极速"
+    jisu: {
+        api: 'https://jszyapi.com/api.php/provide/vod/',
+        name: '极速'
     },
-    "jinying": {
-        "api": "https://jinyingzy.com/api.php/provide/vod",
-        "name": "金鹰"
+    jinying: {
+        api: 'https://jinyingzy.com/api.php/provide/vod/',
+        name: '金鹰'
     },
-    "jinyingzy": {
-        "api": "https://jyzyapi.com/provide/vodfrom/jinyingm3u8/at/json/",
-        "name": "金鹰资源"
+    jinyingzy: {
+        api: 'https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json/',
+        name: '金鹰资源'
     },
-    "kuaiche": {
-        "api": "https://caiji.kczyapi.com/api.php/provide/vodfrom/kcm3u8/",
-        "name": "快车"
+    kuaiche: {
+        api: 'https://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8/',
+        name: '快车'
     },
-    "liangzi": {
-        "api": "https://cj.lziapi.com/api.php/provide/vod",
-        "name": "量子"
+    liangzi: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/',
+        name: '量子'
     },
-    "modu": {
-        "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-        "name": "魔都"
+    modu: {
+        api: 'https://caiji.moduapi.cc/api.php/provide/vod/',
+        name: '魔都'
     },
-    "modou": {
-        "api": "https://www.mdzyapi.com/api.php/provide/vod",
-        "name": "墨斗"
+    modou: {
+        api: 'https://www.mdzyapi.com/api.php/provide/vod/',
+        name: '墨斗'
     },
-    "niuniu": {
-        "api": "https://api.niuniuzy.me/api.php/provide/vod",
-        "name": "牛牛"
+    niuniu: {
+        api: 'https://api.niuniuzy.me/api.php/provide/vod/',
+        name: '牛牛'
     },
-    "piaoling": {
-        "api": "https://p2100.net/api.php/provide/vod",
-        "name": "飘零"
+    piaoling: {
+        api: 'https://p2100.net/api.php/provide/vod/',
+        name: '飘零'
     },
-    "shandian": {
-        "api": "http://sdzyapi.com/api.php/provide/vod",
-        "name": "闪电"
+    shandian: {
+        api: 'http://sdzyapi.com/api.php/provide/vod/',
+        name: '闪电'
     },
-    "subo": {
-        "api": "https://subocaiji.com/api.php/provide/vod",
-        "name": "速博"
+    subo: {
+        api: 'https://subocaiji.com/api.php/provide/vod/',
+        name: '速博'
     },
-    "suoni": {
-        "api": "https://suoniapi.com/api.php/provide/vod",
-        "name": "索尼"
+    suoni: {
+        api: 'https://suoniapi.com/api.php/provide/vod/',
+        name: '索尼'
     },
-    "taopian": {
-        "api": "https://taopianapi.com/cjapi/mc/vodjson/m3u8.html/",
-        "name": "淘片资源"
+    taopian: {
+        api: 'https://taopianapi.com/cjapi/mc/vod/json/m3u8.html/',
+        name: '淘片资源'
     },
-    "wangwang": {
-        "api": "https://api.wwzy.tv/api.php/provide/vod",
-        "name": "旺旺"
+    wangwang: {
+        api: 'https://api.wwzy.tv/api.php/provide/vod/',
+        name: '旺旺'
     },
-    "wolong": {
-        "api": "https://collect.wolongzyw.com/api.php/provide/vod",
-        "name": "卧龙"
+    wolong: {
+        api: 'https://collect.wolongzyw.com/api.php/provide/vod/',
+        name: '卧龙'
     },
-    "wujin": {
-        "api": "https://api.wujinapi.com/api.php/provide/vod",
-        "name": "无尽"
+    wujin: {
+        api: 'https://api.wujinapi.com/api.php/provide/vod/',
+        name: '无尽'
     },
-    "xiaohuangren": {
-        "api": "https://iqyi.xiaohuangrentv.com/api.php/provide/vod",
-        "name": "小黄人"
+    xiaohuangren: {
+        api: 'https://iqyi.xiaohuangrentv.com/api.php/provide/vod/',
+        name: '小黄人'
     },
-    "xinlang": {
-        "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
-        "name": "新浪"
+    xinlang: {
+        api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/',
+        name: '新浪'
     },
-    "yaya": {
-        "api": "https://cj.yayazy.net/api.php/provide/vod",
-        "name": "丫丫"
+    yaya: {
+        api: 'https://cj.yayazy.net/api.php/provide/vod/',
+        name: '丫丫'
     },
-    "yinghua": {
-        "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-        "name": "樱花"
+    yinghua: {
+        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod/',
+        name: '樱花'
     },
-    "yingtu": {
-        "api": "http://cj.vodimg.top/api.php/provide/vod",
-        "name": "影图"
+    yingtu: {
+        api: 'http://cj.vodimg.top/api.php/provide/vod/',
+        name: '影图'
     },
-    "zuida": {
-        "api": "http://zuidazy.me/api.php/provide/vod",
-        "name": "最大"
+    zuida: {
+        api: 'http://zuidazy.me/api.php/provide/vod/',
+        name: '最大'
     },
-    "xiaomaomi": {
-        "api": "https://zy.xmm.hk/api.php/provide/vod",
-        "name": "小猫咪资源"
+    xiaomaomi: {
+        api: 'https://zy.xmm.hk/api.php/provide/vod/',
+        name: '小猫咪资源'
     },
-    "huawabazy": {
-        "api": "https://cjhwba.com/api.php/provide/vod",
-        "name": "华为吧资源"
+    cjhwba: {
+        api: 'https://cjhwba.com/api.php/provide/vod/',
+        name: '华为吧资源'
     },
-    "mozhuazy": {
-        "api": "https://mozhuazy.com/api.php/provide/vod",
-        "name": "魔爪资源"
+    mozhuazy: {
+        api: 'https://mozhuazy.com/api.php/provide/vod/',
+        name: '魔爪资源'
     },
-    "tyyszy": {
-        "api": "https://tyyszy.com/api.php/provide/vod",
-        "name": "天涯资源"
+    tyyszy: {
+        api: 'https://tyyszy.com/api.php/provide/vod/',
+        name: '天涯资源'
     },
-    "ruyi": {
-        "api": "https://cj.rycjapi.com/api.php/provide/vod",
-        "name": "如意资源"
+    ruyi: {
+        api: 'https://cj.rycjapi.com/api.php/provide/vod/',
+        name: '如意资源'
     },
-    "dyttzy": {
-        "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-        "name": "电影天堂资源"
+    dyttzy: {
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod/',
+        name: '电影天堂资源'
     },
-    "qiqi": {
-        "api": "https://www.qiqidys.com/api.php/provide/vod",
-        "name": "七七资源"
+    qiqi: {
+        api: 'https://www.qiqidys.com/api.php/provide/vod/',
+        name: '七七资源'
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
